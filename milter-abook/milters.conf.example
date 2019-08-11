@@ -1,0 +1,9 @@
+# RoundCube milters configuration
+[main]
+debug=True
+
+# This account should have read-only only to the tables in the roundcube database
+[postgres]
+user=roundcube_ro
+password=agreatpassword
+dbName=roundcube
